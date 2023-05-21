@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/warna1">
+
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:src="@drawable/circle"
+        android:layout_marginTop="-390dp"
+        android:outlineAmbientShadowColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-140dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/welcome"
+        android:textSize="30dp"
+        android:textColor="@color/coksu"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/input"
+        android:textSize="20dp"
+        android:textColor="@color/coksu"/>
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <EditText
+           android:layout_width="260dp"
+           android:layout_height="55dp"
+           android:hint="@string/name"
+           android:ems="10"
+           android:background="@drawable/costum_input"
+           android:layout_marginBottom="10dp"
+           android:layout_marginTop="30dp"
+           android:drawableStart="@drawable/person"
+           android:drawablePadding="12dp"
+           android:textSize="18sp"
+           android:paddingStart="12dp"
+           android:paddingEnd="12dp"
+
+           />
+
+       <EditText
+           android:layout_width="260dp"
+           android:layout_height="55dp"
+           android:hint="@string/nim"
+           android:ems="10"
+           android:background="@drawable/costum_input"
+           android:layout_marginBottom="10dp"
+           android:drawableStart="@drawable/dvr"
+           android:drawablePadding="12dp"
+           android:textSize="18sp"
+           android:paddingStart="12dp"
+           android:paddingEnd="12dp"
+           />
+
+       <EditText
+           android:layout_width="260dp"
+           android:layout_height="55dp"
+           android:hint="@string/jurusan"
+           android:ems="10"
+           android:background="@drawable/costum_input"
+           android:layout_marginBottom="10dp"
+           android:drawableStart="@drawable/domain"
+           android:drawablePadding="12dp"
+           android:textSize="18sp"
+           android:paddingStart="12dp"
+           android:paddingEnd="12dp"
+           />
+
+
+   </LinearLayout>
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:text="Simpan"
+        android:background="@drawable/button_radius"
+        />
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>
