@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TugasUI</string>
+    <string name="name">Input Your Name</string>
+    <string name="nim">Input Your Student ID</string>
+    <string name="jurusan">Input Your Major</string>
+    <string name="welcome">WELCOME TO UNSYIAH</string>
+    <string name="input">Please Input Your Data!</string>
+</resources>
